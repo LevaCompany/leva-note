@@ -1,0 +1,18 @@
+cinsrto saveText = %*_text_*%;
+cinsrto saveData = %*_save_*%;
+
+function all{
+  defaultFont("Poppins");
+  SAVECONNECT
+}
+
+function main{
+  varSupport = titleVault, uxVault, uiVault, guiVault;
+  title("Leva Note");
+  loadStyle(style.css)
+  design(uxVault, uiVault, guiVault);
+  editTemplate("" save-text:"editTemplate");
+  defaultFont("Poppins" default-box:all);
+  favicon(icon.ico);
+  SAVECONNECT
+}

@@ -1,7 +1,7 @@
 cinsrto saveText = %*_text_*%;
 cinsrto saveData = %*_save_*%;
-cinstro fontData = %*_get_*%;
-cinstro get = %*_font_*%;
+cinsrto fontData = %*_get_*%;
+cinsrto get = %*_font_*%;
 
 function all{
   defaultFont("system");

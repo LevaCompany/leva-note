@@ -1,0 +1,12 @@
+cinsrto fonts = get_system_variable*fonts*;
+cinsrto gui = off;
+
+function all{
+  defaultFont(cinsrto_varible=fonts,"readVarible");
+  SAVECONNECT
+}
+
+function main{
+  defaultFont(cinsrto_varible=fonts,"readVarible");
+  SAVECONNECT
+}

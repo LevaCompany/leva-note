@@ -1,8 +1,10 @@
 cinsrto saveText = %*_text_*%;
 cinsrto saveData = %*_save_*%;
+cinstro fontData = %*_get_*%;
+cinstro get = %*_font_*%;
 
 function all{
-  defaultFont("Poppins");
+  defaultFont("system");
   SAVECONNECT
 }
 
@@ -12,7 +14,7 @@ function main{
   loadStyle(style.css)
   design(uxVault, uiVault, guiVault);
   editTemplate("" save-text:"editTemplate");
-  defaultFont("Poppins" default-box:all);
+  defaultFont("system" default-box:all);
   favicon(icon.ico);
   SAVECONNECT
 }
